@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> dkab_lo</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    input[type=text] {
+      
+      width: 30%;
+      background: #f8f6f6;
+      padding: 10px 10px;
+      margin: 5px 5px;
+      border-radius: 5px;
+
+    }
+
+    input[type=submit] {
+      background-color: #005463;
+      width: 30%;
+      color: #f8f6f6;
+      padding: 10px 10px;
+      margin: 5px 5px;
+      border-radius: 5px;
+     
+    }
+  </style>
+</head>
+<body>
+
+  <div class="tmp">
+    <form method="post" enctype="application/json" target="out">
+      <input placeholder=" Введите id" type="text" name="order_uid" id="order_uid">
+      <input type="submit" value="Показать">
+      <iframe class="frame" name="out" width=100% height=500></iframe>
+    </form>
+  </div>
+  
+
+</body>
+</html>
